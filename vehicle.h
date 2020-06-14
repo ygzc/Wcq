@@ -1,0 +1,21 @@
+#pragma once
+#include<string>
+using namespace std;
+class Vehicle {
+public:
+
+	int id;            //³µÁ¾±àºÅ
+	string models;     //³µÁ¾ÐÍºÅ
+	string plateNo;    //³µÁ¾³µÅÆºÅ
+	double deposit;    //³µÁ¾Ñº½ð
+	double dailyRent;  //³µÁ¾ÈÕ×â
+	string statu;      //³µÁ¾×âÁÞ×´Ì¬
+
+	Vehicle(int id, string models, string plateNo, double deposit, double dailyRent, string statu);
+	void showInfo();
+	~Vehicle();
+
+
+
+};
+
